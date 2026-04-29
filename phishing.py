@@ -95,4 +95,4 @@ if st.button("🚀 EXECUTE SECURITY SCAN"):
                 st.write("No malicious heuristics triggered.")
 
 st.markdown("---")
-st.caption("🔒 Created for Nowrosjee Wadia College Cyber Security Project | Educational Tool")
+st.caption("🔒 Created for a Cyber Security Project by Jagriti Gattani | Educational Tool")
