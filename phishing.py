@@ -80,7 +80,7 @@ if st.button("🚀 EXECUTE SECURITY SCAN"):
                 st.markdown(f"<p class='risk-high'>HIGH RISK ({final_score}%)</p>", unsafe_allow_html=True)
                 st.error("DANGER: This email matches multiple phishing patterns. Do not click any links.")
             elif final_score >= 30:
-                st.markdown(f<p class='risk-med'>MEDIUM RISK ({final_score}%)</p>", unsafe_allow_html=True)
+                st.markdown(f"<p class='risk-med'>MEDIUM RISK ({final_score}%)</p>", unsafe_allow_html=True)
                 st.warning("CAUTION: Some suspicious elements were found. Verify the sender independently.")
             else:
                 st.markdown(f"<p class='risk-low'>LOW RISK ({final_score}%)</p>", unsafe_allow_html=True)
